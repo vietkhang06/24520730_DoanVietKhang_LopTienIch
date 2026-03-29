@@ -1,0 +1,6 @@
+24520730,Đoàn Việt Khang,3.8
+24520765,Phạm Ngọc Gia Khang,3.5
+24520719,Bùi Vạn Khải,3.25
+24520747,Lương Phúc Khang,3.65
+24520781,Huỳnh Long Bảo Khanh,3.7
+24520735,Hoang Lan Anh,abc
