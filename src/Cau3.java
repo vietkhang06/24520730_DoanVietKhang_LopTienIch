@@ -20,14 +20,12 @@ public class Cau3 {
         {
             String line;
             System.out.print("Nội dung từ tệp: ");
-            while ((line = br.readLine()) != null)
+            while((line = br.readLine()) != null)
             {
                 System.out.println(line);
             }
-        } catch (IOException e) {
+        } catch(IOException e) {
             e.printStackTrace();
         }
-
-        scanner.close();
     }
 }

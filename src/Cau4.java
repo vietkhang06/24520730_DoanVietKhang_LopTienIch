@@ -40,7 +40,7 @@ public class Cau4 {
                 System.out.println("Không có dữ liệu hợp lệ.");
             }
 
-        } catch (IOException e) {
+        } catch(IOException e) {
             e.printStackTrace();
         }
     }

@@ -23,7 +23,7 @@ public class Cau10 {
     public static int duongDiNganNhat(char[][] maTran, int[] batDau, int[] dichDen) {
         int rows = maTran.length;
         int cols = maTran[0].length;
-        if (maTran[batDau[0]][batDau[1]] == '#' || maTran[dichDen[0]][dichDen[1]] == '#') return -1;
+        if(maTran[batDau[0]][batDau[1]] == '#' || maTran[dichDen[0]][dichDen[1]] == '#') return -1;
         Queue<int[]> queue = new LinkedList<>();
         boolean[][] visited = new boolean[rows][cols];
         queue.add(new int[]{batDau[0], batDau[1], 0});
