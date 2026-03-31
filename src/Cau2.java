@@ -20,8 +20,7 @@ public class Cau2 {
                 System.out.println("Lỗi: URL không đúng với định dạng (Phải bắt đầu bằng http:// hoặc https:// và có tên miền hợp lệ)");
                 System.out.println("Vui lòng thử lại!\n");
             }
-            System.out.println("Lưu thành công URL: " + url);
         }
-        scanner.close();
+        System.out.println("Lưu thành công URL: " + url);
     }
 }
